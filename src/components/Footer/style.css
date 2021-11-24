@@ -1,0 +1,36 @@
+:root {
+    --first_color: white;
+    --second_color: rgb(168, 58, 135);
+    --third_color: rgb(60, 31, 107);
+    --images_small_wid: 200px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+/* Adding display flex, basis size, row nowrap, space-evenly, alignning the items to the center, and changing the font-size of the "footer_informations" class */
+.footer_informations {
+    display: flex;
+    flex-basis: 2200px;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5vw;
+    flex-wrap: wrap;
+}
+
+/* Adding margin, color, border and taking out all the text decorations on the anchors on the "footer_information" class */
+.footer_informations a{
+    color: black;
+    margin:0.4em;  padding:1em;
+    text-decoration: none;
+    border-bottom: 4px solid var(--second_color)
+}
+
+/* Changing the color of the anchor on the "footer_information" class to blue when pass the mouse in */
+.footer_informations a:hover {
+        color: var(--second_color)
+}

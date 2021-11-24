@@ -1,0 +1,60 @@
+.flexbox_image-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 0;
+    flex-basis: 1550px;
+}
+
+/* Adding some margin on the images */
+.class_image {
+    margin: 10px;
+}
+
+.big_image_class{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Adding some border, filter and color to the big image */
+.b_image {
+    border: 4px solid var(--second_color);
+    color: #000;
+    filter: saturate(10%);
+    width: 1100px;
+}
+
+/* Adding the figcaption inside the big image and adding some background color, width, margin-top negative and padding */
+.big-image-text {
+    position: absolute;
+    background-color: var(--second_color);
+    width: 185px;
+    margin-top: -100px;
+    padding: 10px;
+    z-index: 100;
+    text-align: left;
+}
+
+/* Adding some border, filter and color to the small images*/
+.s_image {
+    border: 4px solid var(--second_color);
+    color: #000;
+    filter: saturate(10%);
+    width: 550px;
+}
+
+/* Adding the figcaption inside the small images and adding some background color, width, margin-top negative and padding */
+.small-image-text {
+    position: absolute;
+    background-color: var(--second_color);
+    width: 150px;
+    margin-top: -52px;
+    padding: 2px;
+    z-index: 100;
+}
+
+/* Giving filter to the images when you pass the mouse */
+.glow:hover {
+    filter: saturate(1);
+}

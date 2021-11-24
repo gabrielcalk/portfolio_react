@@ -1,0 +1,169 @@
+:root {
+    --first_color: white;
+    --second_color: rgb(168, 58, 135);
+    --third_color: rgb(60, 31, 107);
+    --images_small_wid: 200px;
+}
+
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Editing the a tag (text decoration and color) */
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
+
+/* Editing the hr tag (line) */
+
+hr{
+    margin: 0 auto;
+    height: 5px;
+    background-color: var(--second_color);
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+/* Adding 50px font-size to the h3 tag and alignning the text to the rigth */
+h3 {
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Adding 2.5vw font-size, gray color, blue border, blue background color and 3px padding to the h2 tag*/
+h2 {
+    color: var(--first_color);
+    font-size: 2.5vw;
+    border: 3px solid var(--second_color);
+    padding: 3px;
+    background-color: var(--second_color);
+}
+
+/* Adding a 0 margin and padding to the body and a sans-serif font-family */
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 1645px) {
+
+    .title {
+        text-align: center;
+    }
+
+/* Changing the margin-right of the "about_text" (on p tag - on about me section) class to 125px and the font size to 1.3vw*/
+    .about_text {
+        font-size: 2vw;
+        margin: 0 15px 0 15px;
+    }
+
+/* Changing the width of the "b_image" class (on the work section) to 850px */
+    .b_image {
+        width: 870px;
+        margin-right: 10px;
+    }
+
+/* Changing the width of the "s_image" class (on the work section) to 415px */
+    .s_image {
+        width: 420px;
+        margin-right: 20px;
+    }
+}
+
+/* Editing the page when the resolution is less than 975px */
+@media screen and (max-width: 975px) {
+
+    /* Changing the font size of the anchors on the nav tag to 2vw */
+    nav a {
+        font-size: 2vw;
+    }
+
+    .about_text{
+        font-size: 2.2vw;
+        margin-bottom: -20px;
+    }
+
+    .banner_top{
+        background-position: top;
+        height: 350px;
+    }
+
+/* Changing the margin of the "title" (on h3 tag) class to 15px */
+    .title {
+        text-align: center;
+    }
+
+/* Changing the width of the "b_image" class (on the work section) to 100% */
+    .b_image {
+        width: 100%;
+    }
+
+/* Changing the width of the "s_image" class (on the work section) to 100% */
+    .s_image {
+        width: 100%;
+    }
+}
+
+/* Editing the page when the resolution is less than 500px */
+ @media screen and (max-width: 650px) {
+    .banner_top{
+        height: 150px;
+        background-position: center;
+    }
+
+    .about_text{
+        font-size: 2.5vw;
+        margin-bottom: -20px;
+    }
+/* Changing the width of the "flexbox_container" class (after opening the main tag) to 459px*/
+    .flexbox_container {
+        width: 459px;
+    }
+
+/* Changing the padding-right of the header tag to 10px */
+    header {
+        padding-right: 10px;
+    }
+
+/* Changing the font size of the anchors on the nav tag to 2vw */
+    nav a {
+        font-size: 2.2vw;
+    }
+
+/* Changing the margin of the "title" (on h3 tag) class to 5px */
+    .title {
+        margin: 5px;
+        padding: 5px;
+        font-size: 3.5vw;
+    }
+
+/* Changing the width of the "b_image" class (on the work section) to 100% */
+    .b_image {
+        width: 100%;
+    }
+
+/* Changing the width of the "s_image" class (on the work section) to 100% */
+    .s_image {
+        width: 100%;
+    }
+
+/* Changing the margin of the "class_image" class (on the figure tag) to 6px */
+    .class_image {
+        margin: 6px;
+    }
+
+/* Changing the "footer_informations" class to column wrap */
+    .footer_informations {
+        flex-flow: column wrap;
+    }
+
+/* Changing the font size of the anchors on the "footer_informations" class to 3vw */
+    .footer_informations a {
+        font-size: 3.2vw;
+    }
+}

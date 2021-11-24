@@ -1,0 +1,36 @@
+.flexbox_container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    text-align: right;
+    width: auto;
+    height: auto;
+    padding: 0%;
+}
+
+
+/* Adding flex display, color, padding, margin, width and height, alignning the items and moving to the right the text on the h3 tag */
+.title {
+    font-size: 3vw;
+    color: var(--second_color);
+    margin-bottom: 0;
+}
+
+
+/* Adding flex displat and putting all the content on the center */
+.class_about{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+
+/* Alignning the p tag text to the left and de items to the center, adding some nowrap, space evenly, defining the font size and basis size and adding some margin to the text on the aboute me section */
+.about_text {
+    flex-wrap:  nowrap;
+    flex-basis: 1300px;
+    font-size: 1vw;
+    margin-top: 25px;
+}
