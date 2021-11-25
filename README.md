@@ -29,7 +29,10 @@ Gabriel Cavalcante Causin
 
 ## *Usage*
 At the top of the page you can select what you want to view.
+
+
 ![image](https://user-images.githubusercontent.com/89816900/143327243-02bfffb2-eccc-406c-9e67-f2301f49f913.png)
+
 
 On the header you can access: more information about me, check my works, contact me and download my resume.
 
