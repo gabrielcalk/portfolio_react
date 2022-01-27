@@ -1,3 +1,5 @@
+import resume from '../../images/resume.pdf'
+
 import './style.css';
 
 export default function RenderHeader(props){
@@ -9,7 +11,7 @@ export default function RenderHeader(props){
                 <a onClick={() => props.setPage('About')} href="#">About me</a>
                 <a onClick={() => props.setPage('Portfolio')} href="#">Work</a>
                 <a onClick={() => props.setPage('Contact')} href="#">Contact</a>
-                <a onClick={() => props.setPage('Resume')} href='#'>Resume</a>
+                <a onClick={() => props.setPage('Resume')} href={resume}>Resume</a>
             </nav>
             </header>
             <section>

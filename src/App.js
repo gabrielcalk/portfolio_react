@@ -4,7 +4,6 @@ import RenderFooter from './components/Footer/index';
 import RenderAbout from './components/About/index';
 import RenderPortfolio from './components/Portfolio/index';
 import RenderContact from './components/Contact/index';
-import RenderResume from './components/Resume/index'
 import './App.css'
 
 function App() {
@@ -24,12 +23,6 @@ function App() {
           <RenderPortfolio />
           <RenderFooter/>
         </>
-    )
-  } else if(page === 'Resume'){
-    return (
-      <>
-        <RenderResume />
-      </>
     )
     } else{
       return <RenderContact/>
