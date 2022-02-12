@@ -1,3 +1,39 @@
+.div_portfolio{
+    margin: 2rem 0;
+}
+
+.about_project_div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 0.3rem;
+    /* width: 900px; */
+}
+
+.info_about_project{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 882px;
+    padding-left: 0.7rem;
+}
+
+.div_project{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.about_project{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.about_project_title{
+    font-size: 1.3rem;
+}
+
 .flexbox_image-container {
     display: flex;
     justify-content: center;

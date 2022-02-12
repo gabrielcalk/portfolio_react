@@ -58,7 +58,7 @@ body {
 
 /* Changing the margin-right of the "about_text" (on p tag - on about me section) class to 125px and the font size to 1.3vw*/
     .about_text {
-        font-size: 2vw;
+        font-size: 1.4rem;
         margin: 0 15px 0 15px;
     }
 
@@ -77,6 +77,10 @@ body {
 
 /* Editing the page when the resolution is less than 975px */
 @media screen and (max-width: 975px) {
+    .info_about_project{
+        width: 95%;
+        padding: 0 5px 0 30px;
+    }
 
     /* Changing the font size of the anchors on the nav tag to 2vw */
     nav a {
@@ -111,13 +115,17 @@ body {
 
 /* Editing the page when the resolution is less than 500px */
  @media screen and (max-width: 650px) {
+     .info_about_project{
+         width: 95%;
+         padding: 0 5px 0 15px;
+     }
     .banner_top{
         height: 150px;
         background-position: center;
     }
 
     .about_text{
-        font-size: 2.5vw;
+        font-size: 2.8vw;
         margin-bottom: -20px;
     }
 /* Changing the width of the "flexbox_container" class (after opening the main tag) to 459px*/
