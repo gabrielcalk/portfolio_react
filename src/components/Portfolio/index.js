@@ -41,9 +41,9 @@ export default function RenderPortfolio() {
       link_repo: "https://github.com/gabrielcalk/all_things_pets",
       title_about_project: "About the All Things Pets (Created in Group)",
       purpose:
-        "This application's purpose is to create a database on pet ownership and descriptions of various animals in order for the user to make a more informed decisions on future pet adoptions or integrating the user's pet into their daily activities.",
+        "This application's purpose is to create a database on pet ownership and descriptions of various animals so that the user can make a more informed decision about future pet adoptions or integrating the user's pet into their daily activities.",
       tech: "JavaScript, Handlebars, MySQL, Sequelize, Node.js, HTML and CSS, Heroku.",
-      challenges: "We weren't able to find a api that had the information we were looking for so we had to manually input each line of the database from pet websites in order to use the data we need to create the correct information needed to solve our problem, getting dog question user to be able to select more than one option. Was a fairly difficult task and Connecting the database to heroku."
+      challenges: "We weren't able to find a api that had the information we were looking for so we had to manually input each line of the database from pet websites in order to use the data we need to create the correct information needed to solve our problem, getting dog question user to be able to select more than one option, and connecting the database to heroku."
     },
     {
       title: "Repository - Alien Invasion",

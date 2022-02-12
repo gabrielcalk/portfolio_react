@@ -172,6 +172,6 @@ body {
 
 /* Changing the font size of the anchors on the "footer_informations" class to 3vw */
     .footer_informations a {
-        font-size: 3.2vw;
+        font-size: 2vw;
     }
 }
