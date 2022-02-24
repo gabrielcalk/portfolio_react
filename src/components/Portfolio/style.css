@@ -34,6 +34,19 @@
     font-size: 1.3rem;
 }
 
+.links_div_write{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-left: 0.7rem;
+}
+
+.links_div_write a{
+    color: var(--third_color);
+    font-size: 1rem;
+}
+
 .flexbox_image-container {
     display: flex;
     justify-content: center;

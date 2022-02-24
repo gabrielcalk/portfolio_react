@@ -1,28 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio_react/static/css/main.bc228296.chunk.css",
-    "main.js": "/portfolio_react/static/js/main.a5d3a79b.chunk.js",
-    "main.js.map": "/portfolio_react/static/js/main.a5d3a79b.chunk.js.map",
+    "main.css": "/portfolio_react/static/css/main.d597d5ee.chunk.css",
+    "main.js": "/portfolio_react/static/js/main.54e87353.chunk.js",
+    "main.js.map": "/portfolio_react/static/js/main.54e87353.chunk.js.map",
     "runtime-main.js": "/portfolio_react/static/js/runtime-main.053b75c7.js",
     "runtime-main.js.map": "/portfolio_react/static/js/runtime-main.053b75c7.js.map",
-    "static/js/2.425f866e.chunk.js": "/portfolio_react/static/js/2.425f866e.chunk.js",
-    "static/js/2.425f866e.chunk.js.map": "/portfolio_react/static/js/2.425f866e.chunk.js.map",
+    "static/js/2.428352f8.chunk.js": "/portfolio_react/static/js/2.428352f8.chunk.js",
+    "static/js/2.428352f8.chunk.js.map": "/portfolio_react/static/js/2.428352f8.chunk.js.map",
     "index.html": "/portfolio_react/index.html",
-    "static/css/main.bc228296.chunk.css.map": "/portfolio_react/static/css/main.bc228296.chunk.css.map",
-    "static/js/2.425f866e.chunk.js.LICENSE.txt": "/portfolio_react/static/js/2.425f866e.chunk.js.LICENSE.txt",
+    "static/css/main.d597d5ee.chunk.css.map": "/portfolio_react/static/css/main.d597d5ee.chunk.css.map",
+    "static/js/2.428352f8.chunk.js.LICENSE.txt": "/portfolio_react/static/js/2.428352f8.chunk.js.LICENSE.txt",
+    "static/media/Chess.4357993e.png": "/portfolio_react/static/media/Chess.4357993e.png",
     "static/media/Marvelous_battle.3f99c5b7.png": "/portfolio_react/static/media/Marvelous_battle.3f99c5b7.png",
-    "static/media/Quiz_js.75ad15ff.png": "/portfolio_react/static/media/Quiz_js.75ad15ff.png",
-    "static/media/Weather_dash.15a78605.png": "/portfolio_react/static/media/Weather_dash.15a78605.png",
+    "static/media/alien_invasion.e0b3d5de.png": "/portfolio_react/static/media/alien_invasion.e0b3d5de.png",
     "static/media/all_things_pet.640a7944.png": "/portfolio_react/static/media/all_things_pet.640a7944.png",
     "static/media/style.css": "/portfolio_react/static/media/background_gabriel.f8db3643.png",
-    "static/media/resume.7797b38a.pdf": "/portfolio_react/static/media/resume.7797b38a.pdf",
-    "static/media/team_generator.133f98fc.png": "/portfolio_react/static/media/team_generator.133f98fc.png",
-    "static/media/tech_blog.6d42a0dd.png": "/portfolio_react/static/media/tech_blog.6d42a0dd.png"
+    "static/media/home_Algo_Education.ca74249f.png": "/portfolio_react/static/media/home_Algo_Education.ca74249f.png",
+    "static/media/resume.53bf32c8.pdf": "/portfolio_react/static/media/resume.53bf32c8.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.053b75c7.js",
-    "static/js/2.425f866e.chunk.js",
-    "static/css/main.bc228296.chunk.css",
-    "static/js/main.a5d3a79b.chunk.js"
+    "static/js/2.428352f8.chunk.js",
+    "static/css/main.d597d5ee.chunk.css",
+    "static/js/main.54e87353.chunk.js"
   ]
 }

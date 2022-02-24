@@ -15,6 +15,8 @@ export default function RenderPortfolio() {
       link: "https://algo-education.herokuapp.com/",
       link_repo: "https://github.com/gabrielcalk/algo_education",
       title_about_project: "About the Algo Education",
+      link_project_write: "https://algo-education.herokuapp.com/",
+      link_repo_write: "https://github.com/gabrielcalk/algo_education",
       purpose:
         "Algo Education is an educational program that allows developers to learn visually and with simple and clear explanations some of the algorithms that exist in the programming world.",
       tech: "JavaScript, React.Js, HTML, CSS in JS, Heroku.",
@@ -27,6 +29,8 @@ export default function RenderPortfolio() {
       link: "https://github.com/gabrielcalk/chess_java",
       link_repo: "https://github.com/gabrielcalk/chess_java",
       title_about_project: "About the Chess Game",
+      link_project_write: "https://github.com/gabrielcalk/chess_java",
+      link_repo_write: "https://github.com/gabrielcalk/chess_java",
       purpose:
         "A chess game built 100% in java that has all the rules and moves of the game.",
       tech: "Java.",
@@ -40,6 +44,8 @@ export default function RenderPortfolio() {
       link: "https://vast-retreat-92642.herokuapp.com/",
       link_repo: "https://github.com/gabrielcalk/all_things_pets",
       title_about_project: "About the All Things Pets (Created in Group)",
+      link_project_write: "https://vast-retreat-92642.herokuapp.com/",
+      link_repo_write: "https://github.com/gabrielcalk/all_things_pets",
       purpose:
         "This application's purpose is to create a database on pet ownership and descriptions of various animals so that the user can make a more informed decision about future pet adoptions or integrating the user's pet into their daily activities.",
       tech: "JavaScript, Handlebars, MySQL, Sequelize, Node.js, HTML and CSS, Heroku.",
@@ -53,6 +59,8 @@ export default function RenderPortfolio() {
       link: "https://github.com/gabrielcalk/alien_invasion_python",
       link_repo: "https://github.com/gabrielcalk/alien_invasion_python",
       title_about_project: "About the Alien Invasion",
+      link_project_write: "https://github.com/gabrielcalk/alien_invasion_python",
+      link_repo_write: "https://github.com/gabrielcalk/alien_invasion_python",
       purpose:
         "In Alien Invasion, the player controls a rocket ship that appears at the bottom center of the screen. The player can move the ship right and left using the arrow keys and shoot bullets using the spacebar. When the game begins, a fleet of aliens fills the sky and moves across and down the screen. The player shoots and destroys the aliens. If the player shoots all the aliens, a new fleet appears that moves faster than the previous fleet. If any alien hits the player’s ship or reaches the bottom of the screen, the player loses a ship. If the player loses three ships, the game ends.",
       tech: "Python.",
@@ -66,6 +74,8 @@ export default function RenderPortfolio() {
       link: "https://gabrielcalk.github.io/marvelous_dc/",
       link_repo: "https://github.com/gabrielcalk/marvelous_dc.git",
       title_about_project: "About the Marvelous (Created in Group)",
+      link_project_write: "https://gabrielcalk.github.io/marvelous_dc/",
+      link_repo_write: "https://github.com/gabrielcalk/marvelous_dc.git",
       purpose:
         "This webpage allows the user to pick their favorite three characters from the MCU and battle against an opposing team of characters.",
       tech: "JavaScript, HTML and CSS.",
@@ -102,10 +112,14 @@ export default function RenderPortfolio() {
                   {project.title_about_project}
                 </h3>
                 <div className="info_about_project">
-                <p className="about_project">{project.purpose}</p>
-                <p><strong>Technologies Used: </strong>{project.tech}</p>
-                <br></br>
-                <p><strong>Challenges: </strong>{project.challenges}</p>
+                  <p className="about_project">{project.purpose}</p>
+                  <p><strong>Technologies Used: </strong>{project.tech}</p>
+                  <br></br>
+                  <p><strong>Challenges: </strong>{project.challenges}</p>
+                </div>
+                <div className="links_div_write">
+                  <p>Project: <a href={project.link_project_write ? project.link_project_write : ''}>{project.link_project_write ? project.link_project_write : ''}</a></p>
+                  <p>Repository: <a href={project.link_repo_write}>{project.link_repo_write}</a></p>
                 </div>
               </div>
             </div>
