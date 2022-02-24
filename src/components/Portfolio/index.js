@@ -29,7 +29,7 @@ export default function RenderPortfolio() {
       link: "https://github.com/gabrielcalk/chess_java",
       link_repo: "https://github.com/gabrielcalk/chess_java",
       title_about_project: "About the Chess Game",
-      link_project_write: "https://github.com/gabrielcalk/chess_java",
+      // link_project_write: "https://github.com/gabrielcalk/chess_java",
       link_repo_write: "https://github.com/gabrielcalk/chess_java",
       purpose:
         "A chess game built 100% in java that has all the rules and moves of the game.",
@@ -59,7 +59,7 @@ export default function RenderPortfolio() {
       link: "https://github.com/gabrielcalk/alien_invasion_python",
       link_repo: "https://github.com/gabrielcalk/alien_invasion_python",
       title_about_project: "About the Alien Invasion",
-      link_project_write: "https://github.com/gabrielcalk/alien_invasion_python",
+      // link_project_write: "https://github.com/gabrielcalk/alien_invasion_python",
       link_repo_write: "https://github.com/gabrielcalk/alien_invasion_python",
       purpose:
         "In Alien Invasion, the player controls a rocket ship that appears at the bottom center of the screen. The player can move the ship right and left using the arrow keys and shoot bullets using the spacebar. When the game begins, a fleet of aliens fills the sky and moves across and down the screen. The player shoots and destroys the aliens. If the player shoots all the aliens, a new fleet appears that moves faster than the previous fleet. If any alien hits the player’s ship or reaches the bottom of the screen, the player loses a ship. If the player loses three ships, the game ends.",
@@ -118,7 +118,10 @@ export default function RenderPortfolio() {
                   <p><strong>Challenges: </strong>{project.challenges}</p>
                 </div>
                 <div className="links_div_write">
-                  <p>Project: <a href={project.link_project_write ? project.link_project_write : ''}>{project.link_project_write ? project.link_project_write : ''}</a></p>
+                  {project.link_project_write ? 
+                  <p>Project: <a href={project.link_project_write}>{project.link_project_write ? project.link_project_write : ''}</a></p>
+                  : ''
+                  }
                   <p>Repository: <a href={project.link_repo_write}>{project.link_repo_write}</a></p>
                 </div>
               </div>

@@ -8,6 +8,18 @@
     padding: 0%;
 }
 
+.skills{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    column-count: 3;
+    margin-bottom: 5rem;
+}
+
+.skills ul li{
+    list-style: none;
+}
 
 /* Adding flex display, color, padding, margin, width and height, alignning the items and moving to the right the text on the h3 tag */
 .title {
@@ -23,7 +35,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 2rem;
 }
 
 

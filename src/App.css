@@ -58,7 +58,7 @@ body {
 
 /* Changing the margin-right of the "about_text" (on p tag - on about me section) class to 125px and the font size to 1.3vw*/
     .about_text {
-        font-size: 1.4rem;
+        font-size: 1.1rem;
         margin: 0 15px 0 15px;
     }
 
@@ -88,7 +88,7 @@ body {
     }
 
     .about_text{
-        font-size: 2.2vw;
+        font-size: 2vw;
         margin-bottom: -20px;
     }
 
@@ -115,6 +115,11 @@ body {
 
 /* Editing the page when the resolution is less than 500px */
  @media screen and (max-width: 650px) {
+
+    .skills{
+        display: block;
+    }
+
      .info_about_project{
          width: 95%;
          padding: 0 5px 0 15px;

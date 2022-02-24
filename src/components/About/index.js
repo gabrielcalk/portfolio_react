@@ -3,7 +3,7 @@ import "./style.css";
 export default function RenderAbout() {
   return (
     <>
-      <h3 id="about_me" className="flexbox title">
+      <h3 className="flexbox title">
         About Me
       </h3>
       <hr />
@@ -35,6 +35,29 @@ export default function RenderAbout() {
             Practical Web Application Penetration Testing (EC-COUNCIL).
           </strong>
         </p>
+      </section>
+            <h3 className="flexbox title">Skills</h3>
+      <section className="skills">
+        <div>
+          <p>Front-end Development</p>
+          <p>HTML</p>
+          <p>CSS, Bootstrap, CSS in JS, SASS</p>
+          <p>Python</p>
+          <p>JavaScript</p>
+          <p>React.js and Next.js</p>
+          <p>Node.js</p>
+          <p>GraphQL and REST API</p>
+        </div>
+        <div>
+          <p>Object-oriented programming</p>
+          <p>MERN Stack and MVC</p>
+          <p>MySQL and MongoDB</p>
+          <p>SEO, UTM and Google Analytics</p>
+          <p>Leadership</p>
+          <p>Communication</p>
+          <p>Problem-solver</p>
+          <p>Team Collaboration</p>
+        </div>
       </section>
     </>
   );
